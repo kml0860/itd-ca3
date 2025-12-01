@@ -1,0 +1,204 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "Unity.XR.Hands.Samples.VisualizerSample/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Unity.XR.Hands.Samples.VisualizerSample.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.XR.Hands.Samples.VisualizerSample.dll": {}
+        }
+      },
+      "Unity.XR.Interaction.Toolkit.Samples.Hands/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Unity.XR.Interaction.Toolkit.Samples.Hands.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.XR.Interaction.Toolkit.Samples.Hands.dll": {}
+        }
+      },
+      "Unity.XR.Interaction.Toolkit.Samples.Hands.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.dll": {}
+        }
+      },
+      "Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.dll": {}
+        }
+      },
+      "Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.Editor.dll": {}
+        }
+      },
+      "Unity.XR.Interaction.Toolkit.Samples.StarterAssets/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.dll": {}
+        }
+      },
+      "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Unity.XR.Hands.Samples.VisualizerSample/1.0.0": {
+      "type": "project",
+      "path": "Unity.XR.Hands.Samples.VisualizerSample.csproj",
+      "msbuildProject": "Unity.XR.Hands.Samples.VisualizerSample.csproj"
+    },
+    "Unity.XR.Interaction.Toolkit.Samples.Hands/1.0.0": {
+      "type": "project",
+      "path": "Unity.XR.Interaction.Toolkit.Samples.Hands.csproj",
+      "msbuildProject": "Unity.XR.Interaction.Toolkit.Samples.Hands.csproj"
+    },
+    "Unity.XR.Interaction.Toolkit.Samples.Hands.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj",
+      "msbuildProject": "Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj"
+    },
+    "Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator/1.0.0": {
+      "type": "project",
+      "path": "Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.csproj",
+      "msbuildProject": "Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.csproj"
+    },
+    "Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.Editor.csproj",
+      "msbuildProject": "Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.Editor.csproj"
+    },
+    "Unity.XR.Interaction.Toolkit.Samples.StarterAssets/1.0.0": {
+      "type": "project",
+      "path": "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj",
+      "msbuildProject": "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj"
+    },
+    "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj",
+      "msbuildProject": "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "Unity.XR.Hands.Samples.VisualizerSample >= 1.0.0",
+      "Unity.XR.Interaction.Toolkit.Samples.Hands >= 1.0.0",
+      "Unity.XR.Interaction.Toolkit.Samples.Hands.Editor >= 1.0.0",
+      "Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator >= 1.0.0",
+      "Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.Editor >= 1.0.0",
+      "Unity.XR.Interaction.Toolkit.Samples.StarterAssets >= 1.0.0",
+      "Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\liowk\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\liowk\\Desktop\\Unity Projects\\ITD VR\\Assembly-CSharp.csproj",
+      "projectName": "Assembly-CSharp",
+      "projectPath": "C:\\Users\\liowk\\Desktop\\Unity Projects\\ITD VR\\Assembly-CSharp.csproj",
+      "packagesPath": "C:\\Users\\liowk\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\liowk\\Desktop\\Unity Projects\\ITD VR\\Temp\\obj\\Assembly-CSharp\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\liowk\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "C:\\Users\\liowk\\Desktop\\Unity Projects\\ITD VR\\Unity.XR.Hands.Samples.VisualizerSample.csproj": {
+              "projectPath": "C:\\Users\\liowk\\Desktop\\Unity Projects\\ITD VR\\Unity.XR.Hands.Samples.VisualizerSample.csproj"
+            },
+            "C:\\Users\\liowk\\Desktop\\Unity Projects\\ITD VR\\Unity.XR.Interaction.Toolkit.Samples.Hands.csproj": {
+              "projectPath": "C:\\Users\\liowk\\Desktop\\Unity Projects\\ITD VR\\Unity.XR.Interaction.Toolkit.Samples.Hands.csproj"
+            },
+            "C:\\Users\\liowk\\Desktop\\Unity Projects\\ITD VR\\Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj": {
+              "projectPath": "C:\\Users\\liowk\\Desktop\\Unity Projects\\ITD VR\\Unity.XR.Interaction.Toolkit.Samples.Hands.Editor.csproj"
+            },
+            "C:\\Users\\liowk\\Desktop\\Unity Projects\\ITD VR\\Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.csproj": {
+              "projectPath": "C:\\Users\\liowk\\Desktop\\Unity Projects\\ITD VR\\Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.csproj"
+            },
+            "C:\\Users\\liowk\\Desktop\\Unity Projects\\ITD VR\\Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.Editor.csproj": {
+              "projectPath": "C:\\Users\\liowk\\Desktop\\Unity Projects\\ITD VR\\Unity.XR.Interaction.Toolkit.Samples.InteractionSimulator.Editor.csproj"
+            },
+            "C:\\Users\\liowk\\Desktop\\Unity Projects\\ITD VR\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj": {
+              "projectPath": "C:\\Users\\liowk\\Desktop\\Unity Projects\\ITD VR\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.csproj"
+            },
+            "C:\\Users\\liowk\\Desktop\\Unity Projects\\ITD VR\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj": {
+              "projectPath": "C:\\Users\\liowk\\Desktop\\Unity Projects\\ITD VR\\Unity.XR.Interaction.Toolkit.Samples.StarterAssets.Editor.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
