@@ -14,6 +14,8 @@ namespace VRMovementTutorial
         [SerializeField] private GameObject congratsUIPrefab;
         [SerializeField] private Transform xrCamera;
 
+        [SerializeField] private GameObject unlockablesRoot;
+
         private int completedTriggerCount;
 
         private void Start()
@@ -42,6 +44,8 @@ namespace VRMovementTutorial
 
         public void NotifyTeleportSequenceCompleted()
         {
+            if (unlockablesRoot != null)
+                unlockablesRoot.SetActive(true);
             SpawnCongratsUI();
         }
 
